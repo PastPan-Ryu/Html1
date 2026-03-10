@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jual Beli Akun Game Online</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        header, nav, main, aside, footer { border: 1px solid #ccc; padding: 15px; margin-bottom: 10px; background: white; }
+        header h1 { margin: 0; }
+        form div { margin-bottom: 10px; }
+        label { display: inline-block; width: 150px; font-weight: bold; }
+        input, select, textarea { padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        table, th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        .container { display: flex; gap: 20px; }
+        main { flex: 3; }
+        aside { flex: 1; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 20px; }
+        nav ul li a { text-decoration: none; color: #333; font-weight: bold; padding: 8px 15px; background: #eee; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://via.placeholder.com/50" alt="Jual Beli Akun Game Online">
+        <h1>Jual Beli Akun Game Online</h1>
+        <p>Platform terpercaya untuk jual beli akun game Indonesia</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Jual Akun</a></li>
+            <li><a href="#"> Beli Akun</a></li>
+            <li><a href="#"> Akun Saya</a></li>
+            <li><a href="#"> Riwayat Transaksi</a></li>
+            <li><a href="#"> Keluar</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section>
+                <h2>Form Jual Akun Game</h2>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div>
+                        <label for="id_akun">ID Akun:</label>
+                        <input type="text" id="id_akun" name="id_akun" placeholder="AUTO-GENERATED" readonly>
+                    </div>
+                    <div>
+                        <label for="nama_akun">Nama Akun/Username:</label>
+                        <input type="text" id="nama_akun" name="nama_akun" placeholder="Username game" required>
+                    </div>
+                    <div>
+                        <label for="game">Nama Game:</label>
+                        <select id="game" name="game">
+                            <option value="mobile-legends">Mobile Legends</option>
+                            <option value="free-fire">Free Fire</option>
+                            <option value="pubg">PUBG Mobile</option>
+                            <option value="genshin-impact">Genshin Impact</option>
+                            <option value="honor-of-kings">Honor of Kings</option>
+                            <option value="league-of-legends">League of Legends</option>
+                            <option value="valorant">Valorant</option>
+                            <option value="clash-royale">Clash Royale</option>
+                            <option value="other">Lainnya</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="level">Level Akun:</label>
+                        <input type="number" id="level" name="level" min="1" placeholder="Contoh: 50">
+                    </div>
+                    <div>
+                        <label for="rank">Rank/Tier:</label>
+                        <input type="text" id="rank" name="rank" placeholder="Contoh: Mythic, Grandmaster, Platinum">
+                    </div>
+                    <div>
+                        <label for="harga">Harga (Rp):</label>
+                        <input type="number" id="harga" name="harga" min="1000" placeholder="Contoh: 500000">
+                    </div>
+                    <div>
+                        <label for="tanggal">Tanggal Posting:</label>
+                        <input type="date" id="tanggal" name="tanggal">
+                    </div>
+                    <div>
+                        <label for="penjual">Nama Penjual:</label>
+                        <input type="text" id="penjual" name="penjual" placeholder="Nama Anda">
+                    </div>
+                    <div>
+                        <label for="kontak">Kontak WhatsApp:</label>
+                        <input type="text" id="kontak" name="kontak" placeholder="Contoh: 081234567890">
+                    </div>
+                    <div>
+                        <label for="foto">Screenshot Bukti:</label>
+                        <input type="file" id="foto" name="foto" accept="image/*">
+                    </div>
+                    <div>
+                        <label for="deskripsi">Deskripsi Akun:</label>
+                        <textarea id="deskripsi" name="deskripsi" rows="4" placeholder="Sebutkan detail: jumlah skin, hero, item rare, diamond, legend rank, dll"></textarea>
+                    </div>
+                    <button type="submit">Pasang Iklan</button>
+                </form>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Daftar Akun Game Terbaru</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID Akun</th>
+                            <th>Game</th>
+                            <th>Username</th>
+                            <th>Level</th>
+                            <th>Rank</th>
+                            <th>Harga</th>
+                            <th>Status</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ACC001</td>
+                            <td><span class="game-badge">Mobile Legends</span></td>
+                            <td>DragonSlayer99</td>
+                            <td>65</td>
+                            <td>Mythic</td>
+                            <td>Rp 2.500.000</td>
+                            <td class="status-tersedia">Tersedia</td>
+                            <td><button>Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td>ACC002</td>
+                            <td><span class="game-badge">Free Fire</span></td>
+                            <td>ProGamer_Indonesia</td>
+                            <td>82</td>
+                            <td>Grandmaster</td>
+                            <td>Rp 1.800.000</td>
+                            <td class="status-tersedia">Tersedia</td>
+                            <td><button>Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td>ACC003</td>
+                            <td><span class="game-badge">Genshin Impact</span></td>
+                            <td>Traveler_Genshin</td>
+                            <td>60</td>
+                            <td>AR 60</td>
+                            <td>Rp 5.000.000</td>
+                            <td class="status-terjual">Terjual</td>
+                            <td><button disabled>Sold</button></td>
+                        </tr>
+                        <tr>
+                            <td>ACC004</td>
+                            <td><span class="game-badge">PUBG Mobile</span></td>
+                            <td>KillZone_Pro</td>
+                            <td>75</td>
+                            <td>Crown</td>
+                            <td>Rp 1.200.000</td>
+                            <td class="status-tersedia">Tersedia</td>
+                            <td><button>Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td>ACC005</td>
+                            <td><span class="game-badge">Valorant</span></td>
+                            <td>RadiantWannabe</td>
+                            <td>150</td>
+                            <td>Diamond 3</td>
+                            <td>Rp 800.000</td>
+                            <td class="status-tersedia">Tersedia</td>
+                            <td><button>Beli</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <aside>
+            <h3> Statistik Marketplace</h3>
+            <ul>
+                <li>Total Akun Terjual: <strong>1,250</strong></li>
+                <li>Total Game: <strong>15+</strong></li>
+                <li>Akun Terjual Hari Ini: <strong>28</strong></li>
+                <li>Akun Pending: <strong>12</strong></li>
+            </ul>
+            <hr>
+            <h3> Game Populer</h3>
+            <ul>
+                <li> Mobile Legends</li>
+                <li> Free Fire</li>
+                <li> PUBG Mobile</li>
+                <li> Genshin Impact</li>
+            </ul>
+            <hr>
+        </aside>
+    </div>
+
+    <footer>
+        <h1> Hubungi Kami</h1>
+            <p>WhatsApp: 0895-3656-51114</p>
+            <p>Email: info@jualakungame.id</p>
+        <p>&copy; 2024 Jual Beli Akun Game Online - Marketplace Terpercaya</p>
+    </footer>
+
+</body>
+</html>
